@@ -51,7 +51,7 @@ Dropdown and list
     click element  id:prodist
     click element  xpath://span[contains(text(),' Bangalore Rural ')]
     click element  id:protaluk
-    click element  xpath://span[contains(text(),' Vijayapura ')]
+#    click element  xpath://span[contains(text(),' Vijayapura ')]
     click element  id:proulb
     click element  xpath://span[contains(text(),' Vijayapura ')]
     set selenium implicit wait  10
