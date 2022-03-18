@@ -38,7 +38,7 @@ Dropdown and list
     set selenium implicit wait  10
     click element  xpath://div[contains(text(),'AUG')]
     set selenium implicit wait  10
-    click element  xpath://div[contains(text(),' 15 ')]
+#    click element  xpath://div[contains(text(),' 25 ')]
     click element  id:reqsrctype
     click element  xpath://span[contains(text(),' MLA ')]
     input text  id:reqsrcname   PMMS
