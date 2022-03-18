@@ -1,0 +1,7 @@
+datasources:55d303520497b63204cb1242764e7714e477ec6a
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:7cecd3f14769457e7645d2fcb56d3a26b8b67ce0
+--suite Suites.Project
+--suite Suites.Projectexcel
+--suite Suites.Projectrequest

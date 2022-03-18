@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220307 16:02:33.317" rpa="false" schemaversion="2">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Projectrequest" source="C:\Users\sunplus-08\PycharmProjects\PMMS\testcases\projectrequest.robot">
+<test id="s1-s1-t1" name="Dropdown and list">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<msg timestamp="20220307 16:02:34.154" level="INFO">Opening browser 'chrome' to base url 'http://203.92.59.154:4200/login'.</msg>
+<status status="PASS" starttime="20220307 16:02:34.152" endtime="20220307 16:02:51.451"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:email</arg>
+<arg>pradeep@sunplussoftware.com</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20220307 16:02:51.457" level="INFO">Typing text 'pradeep@sunplussoftware.com' into text field 'id:email'.</msg>
+<status status="PASS" starttime="20220307 16:02:51.454" endtime="20220307 16:02:52.026"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:password</arg>
+<arg>123456</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20220307 16:02:52.028" level="INFO">Typing text '123456' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20220307 16:02:52.027" endtime="20220307 16:02:52.207"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" starttime="20220307 16:02:34.150" endtime="20220307 16:02:52.208"/>
+</test>
+<test id="s1-s1-t2" name="TC2">
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220307 16:02:52.501" endtime="20220307 16:02:52.673"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>2</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220307 16:02:52.675" endtime="20220307 16:02:52.680"/>
+</kw>
+<kw name="Dropdown and list">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath:/html/body/app-root/div[1]/main/div/app-login/div/main/div[2]/div/div/div/div/div/div[6]/div/button/b</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:02:52.692" level="INFO">Clicking element 'xpath:/html/body/app-root/div[1]/main/div/app-login/div/main/div[2]/div/div/div/div/div/div[6]/div/button/b'.</msg>
+<status status="PASS" starttime="20220307 16:02:52.688" endtime="20220307 16:02:56.870"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:mat-expansion-panel-header-8</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:02:56.870" level="INFO">Clicking element 'id:mat-expansion-panel-header-8'.</msg>
+<status status="PASS" starttime="20220307 16:02:56.870" endtime="20220307 16:03:10.998"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="cdk-accordion-child-8"]/div/div[1]/a</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:11.001" level="INFO">Clicking element 'xpath://*[@id="cdk-accordion-child-8"]/div/div[1]/a'.</msg>
+<status status="PASS" starttime="20220307 16:03:10.999" endtime="20220307 16:03:15.468"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),'Create Project Request')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:15.471" level="INFO">Clicking element 'xpath://span[contains(text(),'Create Project Request')]'.</msg>
+<status status="PASS" starttime="20220307 16:03:15.469" endtime="20220307 16:03:19.893"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:reqTitle</arg>
+<arg>ProjectRequest</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:19.895" level="INFO">Typing text 'ProjectRequest' into text field 'id:reqTitle'.</msg>
+<status status="PASS" starttime="20220307 16:03:19.894" endtime="20220307 16:03:26.724"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:reqDes</arg>
+<arg>Description</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:26.727" level="INFO">Typing text 'Description' into text field 'id:reqDes'.</msg>
+<status status="PASS" starttime="20220307 16:03:26.725" endtime="20220307 16:03:33.410"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:protype</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:33.412" level="INFO">Clicking element 'id:protype'.</msg>
+<status status="PASS" starttime="20220307 16:03:33.411" endtime="20220307 16:03:37.772"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),'Water Supply')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:37.776" level="INFO">Clicking element 'xpath://span[contains(text(),'Water Supply')]'.</msg>
+<status status="PASS" starttime="20220307 16:03:37.774" endtime="20220307 16:03:42.251"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:reqdate</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:42.252" level="INFO">Clicking element 'id:reqdate'.</msg>
+<status status="PASS" starttime="20220307 16:03:42.251" endtime="20220307 16:03:46.977"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220307 16:03:46.979" endtime="20220307 16:03:48.990"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="mat-datepicker-0"]/mat-calendar-header/div/div/button[1]/span[1]/div</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:48.993" level="INFO">Clicking element 'xpath://*[@id="mat-datepicker-0"]/mat-calendar-header/div/div/button[1]/span[1]/div'.</msg>
+<status status="PASS" starttime="20220307 16:03:48.991" endtime="20220307 16:03:53.712"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220307 16:03:53.714" endtime="20220307 16:03:55.727"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div[contains(text(),'2011')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:03:55.729" level="INFO">Clicking element 'xpath://div[contains(text(),'2011')]'.</msg>
+<status status="PASS" starttime="20220307 16:03:55.728" endtime="20220307 16:04:00.224"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220307 16:04:00.226" endtime="20220307 16:04:02.243"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div[contains(text(),'AUG')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:02.250" level="INFO">Clicking element 'xpath://div[contains(text(),'AUG')]'.</msg>
+<status status="PASS" starttime="20220307 16:04:02.247" endtime="20220307 16:04:06.771"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220307 16:04:06.772" endtime="20220307 16:04:08.783"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div[contains(text(),' 15 ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:08.785" level="INFO">Clicking element 'xpath://div[contains(text(),' 15 ')]'.</msg>
+<status status="PASS" starttime="20220307 16:04:08.783" endtime="20220307 16:04:13.229"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:reqsrctype</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:13.231" level="INFO">Clicking element 'id:reqsrctype'.</msg>
+<status status="PASS" starttime="20220307 16:04:13.229" endtime="20220307 16:04:17.436"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' MLA ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:17.439" level="INFO">Clicking element 'xpath://span[contains(text(),' MLA ')]'.</msg>
+<status status="PASS" starttime="20220307 16:04:17.437" endtime="20220307 16:04:21.797"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:reqsrcname</arg>
+<arg>PMMS</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:21.799" level="INFO">Typing text 'PMMS' into text field 'id:reqsrcname'.</msg>
+<status status="PASS" starttime="20220307 16:04:21.798" endtime="20220307 16:04:28.218"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220307 16:04:28.219" endtime="20220307 16:04:30.237"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:prozone</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:30.239" level="INFO">Clicking element 'id:prozone'.</msg>
+<status status="PASS" starttime="20220307 16:04:30.238" endtime="20220307 16:04:34.696"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Bengaluru ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:34.698" level="INFO">Clicking element 'xpath://span[contains(text(),' Bengaluru ')]'.</msg>
+<status status="PASS" starttime="20220307 16:04:34.697" endtime="20220307 16:04:39.057"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:prodist</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:39.060" level="INFO">Clicking element 'id:prodist'.</msg>
+<status status="PASS" starttime="20220307 16:04:39.058" endtime="20220307 16:04:43.265"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Bangalore Rural ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:43.267" level="INFO">Clicking element 'xpath://span[contains(text(),' Bangalore Rural ')]'.</msg>
+<status status="PASS" starttime="20220307 16:04:43.266" endtime="20220307 16:04:47.569"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:protaluk</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:47.572" level="INFO">Clicking element 'id:protaluk'.</msg>
+<status status="PASS" starttime="20220307 16:04:47.571" endtime="20220307 16:04:51.772"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Vijayapura ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220307 16:04:51.774" level="INFO">Clicking element 'xpath://span[contains(text(),' Vijayapura ')]'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20220307 16:05:06.180" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220307 16:05:03.894" endtime="20220307 16:05:06.181"/>
+</kw>
+<msg timestamp="20220307 16:05:06.191" level="FAIL">Element with locator 'xpath://span[contains(text(),' Vijayapura ')]' not found.</msg>
+<status status="FAIL" starttime="20220307 16:04:51.773" endtime="20220307 16:05:06.191"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:proulb</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.193" endtime="20220307 16:05:06.193"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Vijayapura ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.194" endtime="20220307 16:05:06.195"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.195" endtime="20220307 16:05:06.196"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:mat-expansion-panel-header-18</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.196" endtime="20220307 16:05:06.197"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:mat-select-value-15</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.197" endtime="20220307 16:05:06.198"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Project Request ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.198" endtime="20220307 16:05:06.199"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.200" endtime="20220307 16:05:06.200"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>css:#cdk-accordion-child-18 &gt; div &gt; div &gt; div &gt; div.col-md-4 &gt; div &gt; div &gt; div &gt; button</arg>
+<arg>C://Users/sunplus-08/Desktop/syntaxlocator.docx</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.201" endtime="20220307 16:05:06.201"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="slider"]/div/div/div/div[2]/div[7]/div/button[1]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220307 16:05:06.202" endtime="20220307 16:05:06.203"/>
+</kw>
+<status status="FAIL" starttime="20220307 16:02:52.681" endtime="20220307 16:05:06.205"/>
+</kw>
+<tag>regression</tag>
+<status status="FAIL" starttime="20220307 16:02:52.209" endtime="20220307 16:05:06.206">Element with locator 'xpath://span[contains(text(),' Vijayapura ')]' not found.</status>
+</test>
+<status status="FAIL" starttime="20220307 16:02:33.390" endtime="20220307 16:05:06.209"/>
+</suite>
+<status status="FAIL" starttime="20220307 16:02:33.340" endtime="20220307 16:05:06.214"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">regression</stat>
+<stat pass="1" fail="0" skip="0">sanity</stat>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="1" skip="0" id="s1-s1" name="Projectrequest">Suites.Projectrequest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220307 16:02:34.147" level="ERROR">Error in file 'C:\Users\sunplus-08\PycharmProjects\PMMS\testcases\projectrequest.robot' on line 4: Initializing library 'AutoItLibrary' with no arguments failed: com_error: (-2147221164, 'Class not registered', None, None)
+Traceback (most recent call last):
+  File "C:\Users\sunplus-08\AppData\Local\Programs\Python\Python310\lib\site-packages\AutoItLibrary\__init__.py", line 91, in __init__
+    self._AutoIt = win32com.client.Dispatch("AutoItX3.Control")
+  File "C:\Users\sunplus-08\AppData\Local\Programs\Python\Python310\lib\site-packages\win32com\client\__init__.py", line 117, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)
+  File "C:\Users\sunplus-08\AppData\Local\Programs\Python\Python310\lib\site-packages\win32com\client\dynamic.py", line 106, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Users\sunplus-08\AppData\Local\Programs\Python\Python310\lib\site-packages\win32com\client\dynamic.py", line 88, in _GetGoodDispatch
+    IDispatch = pythoncom.CoCreateInstance(</msg>
+</errors>
+</robot>

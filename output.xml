@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220318 15:11:37.838" rpa="false" schemaversion="2">
+<suite id="s1" name="Projectrequest" source="C:\Users\sunplus-08\PycharmProjects\PMMS\testcases\projectrequest.robot">
+<test id="s1-t1" name="Dropdown and list">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<msg timestamp="20220318 15:11:53.865" level="INFO">Opening browser 'chrome' to base url 'http://203.92.59.154:4200/login'.</msg>
+<status status="PASS" starttime="20220318 15:11:53.864" endtime="20220318 15:12:12.603"/>
+</kw>
+<kw name="input text">
+<arg>id:email</arg>
+<arg>pradeep@sunplussoftware.com</arg>
+<msg timestamp="20220318 15:12:12.606" level="FAIL">Multiple keywords with name 'input text' found. Give the full name of the keyword you want to use:
+    SeleniumLibrary.Input Text
+    SikuliLibrary.Input Text</msg>
+<status status="FAIL" starttime="20220318 15:12:12.605" endtime="20220318 15:12:12.606"/>
+</kw>
+<kw name="input text">
+<arg>id:password</arg>
+<arg>123456</arg>
+<status status="NOT RUN" starttime="20220318 15:12:12.608" endtime="20220318 15:12:12.608"/>
+</kw>
+<tag>sanity</tag>
+<status status="FAIL" starttime="20220318 15:11:53.863" endtime="20220318 15:12:12.609">Multiple keywords with name 'input text' found. Give the full name of the keyword you want to use:
+    SeleniumLibrary.Input Text
+    SikuliLibrary.Input Text</status>
+</test>
+<test id="s1-t2" name="TC2">
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220318 15:12:12.613" endtime="20220318 15:12:12.765"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>2</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220318 15:12:12.767" endtime="20220318 15:12:12.768"/>
+</kw>
+<kw name="Dropdown and list">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath:/html/body/app-root/div[1]/main/div/app-login/div/main/div[2]/div/div/div/div/div/div[6]/div/button/b</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220318 15:12:12.774" level="INFO">Clicking element 'xpath:/html/body/app-root/div[1]/main/div/app-login/div/main/div[2]/div/div/div/div/div/div[6]/div/button/b'.</msg>
+<status status="PASS" starttime="20220318 15:12:12.772" endtime="20220318 15:12:17.961"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:mat-expansion-panel-header-8</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20220318 15:12:17.964" level="INFO">Clicking element 'id:mat-expansion-panel-header-8'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20220318 15:12:22.862" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220318 15:12:20.000" endtime="20220318 15:12:22.863"/>
+</kw>
+<msg timestamp="20220318 15:12:23.028" level="FAIL">Element with locator 'id:mat-expansion-panel-header-8' not found.</msg>
+<status status="FAIL" starttime="20220318 15:12:17.963" endtime="20220318 15:12:23.028"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="cdk-accordion-child-8"]/div/div[1]/a</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.028" endtime="20220318 15:12:23.028"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),'Create Project Request')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.029" endtime="20220318 15:12:23.029"/>
+</kw>
+<kw name="input text">
+<arg>id:reqTitle</arg>
+<arg>ProjectRequest</arg>
+<status status="NOT RUN" starttime="20220318 15:12:23.029" endtime="20220318 15:12:23.029"/>
+</kw>
+<kw name="input text">
+<arg>id:reqDes</arg>
+<arg>Description</arg>
+<status status="NOT RUN" starttime="20220318 15:12:23.029" endtime="20220318 15:12:23.029"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:protype</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.029" endtime="20220318 15:12:23.029"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),'Water Supply')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.029" endtime="20220318 15:12:23.030"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:reqdate</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.030" endtime="20220318 15:12:23.031"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.031" endtime="20220318 15:12:23.031"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="mat-datepicker-0"]/mat-calendar-header/div/div/button[1]/span[1]/div</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.031" endtime="20220318 15:12:23.031"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.032" endtime="20220318 15:12:23.032"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div[contains(text(),'2011')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.032" endtime="20220318 15:12:23.032"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.032" endtime="20220318 15:12:23.032"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div[contains(text(),'AUG')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.032" endtime="20220318 15:12:23.033"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.033" endtime="20220318 15:12:23.033"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div[contains(text(),' 15 ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.033" endtime="20220318 15:12:23.033"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:reqsrctype</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.033" endtime="20220318 15:12:23.034"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' MLA ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.034" endtime="20220318 15:12:23.034"/>
+</kw>
+<kw name="input text">
+<arg>id:reqsrcname</arg>
+<arg>PMMS</arg>
+<status status="NOT RUN" starttime="20220318 15:12:23.034" endtime="20220318 15:12:23.034"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.034" endtime="20220318 15:12:23.034"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:prozone</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.035" endtime="20220318 15:12:23.035"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Bengaluru ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.035" endtime="20220318 15:12:23.035"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:prodist</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.035" endtime="20220318 15:12:23.035"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Bangalore Rural ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.036" endtime="20220318 15:12:23.036"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:protaluk</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.036" endtime="20220318 15:12:23.036"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Vijayapura ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.036" endtime="20220318 15:12:23.036"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:proulb</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.036" endtime="20220318 15:12:23.036"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Vijayapura ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.036" endtime="20220318 15:12:23.036"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.036" endtime="20220318 15:12:23.036"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:mat-expansion-panel-header-18</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.037" endtime="20220318 15:12:23.037"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:mat-select-value-15</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.037" endtime="20220318 15:12:23.037"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[contains(text(),' Project Request ')]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.037" endtime="20220318 15:12:23.037"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.037" endtime="20220318 15:12:23.037"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>css:#cdk-accordion-child-18 &gt; div &gt; div &gt; div &gt; div.col-md-4 &gt; div &gt; div &gt; div &gt; button</arg>
+<arg>C://Users/sunplus-08/Desktop/syntaxlocator.docx</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.037" endtime="20220318 15:12:23.037"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="slider"]/div/div/div/div[2]/div[7]/div/button[1]</arg>
+<doc>Click element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220318 15:12:23.037" endtime="20220318 15:12:23.037"/>
+</kw>
+<status status="FAIL" starttime="20220318 15:12:12.770" endtime="20220318 15:12:23.038"/>
+</kw>
+<tag>regression</tag>
+<status status="FAIL" starttime="20220318 15:12:12.611" endtime="20220318 15:12:23.040">Element with locator 'id:mat-expansion-panel-header-8' not found.</status>
+</test>
+<status status="FAIL" starttime="20220318 15:11:37.842" endtime="20220318 15:12:23.047"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">regression</stat>
+<stat pass="0" fail="1" skip="0">sanity</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Projectrequest">Projectrequest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220318 15:11:42.211" level="ERROR">Error in file 'C:\Users\sunplus-08\PycharmProjects\PMMS\testcases\projectrequest.robot' on line 4: Initializing library 'AutoItLibrary' with no arguments failed: com_error: (-2147221164, 'Class not registered', None, None)
+Traceback (most recent call last):
+  File "C:\Users\sunplus-08\AppData\Local\Programs\Python\Python310\lib\site-packages\AutoItLibrary\__init__.py", line 91, in __init__
+    self._AutoIt = win32com.client.Dispatch("AutoItX3.Control")
+  File "C:\Users\sunplus-08\AppData\Local\Programs\Python\Python310\lib\site-packages\win32com\client\__init__.py", line 117, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)
+  File "C:\Users\sunplus-08\AppData\Local\Programs\Python\Python310\lib\site-packages\win32com\client\dynamic.py", line 106, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Users\sunplus-08\AppData\Local\Programs\Python\Python310\lib\site-packages\win32com\client\dynamic.py", line 88, in _GetGoodDispatch
+    IDispatch = pythoncom.CoCreateInstance(</msg>
+</errors>
+</robot>
